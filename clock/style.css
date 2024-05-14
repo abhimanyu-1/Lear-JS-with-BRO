@@ -1,0 +1,34 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:hsl(180, 100%, 99%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 29px;
+
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(2px);
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 7em;
+    background-color:hsl(0, 0%, 36%,0.5%)
+}
+
+#bg{
+    background-image: url(imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
+    max-width: 700px;
+    box-shadow: 5px 5px 10px rgb(129, 129, 129) ;
+    height: 660px;
+}
