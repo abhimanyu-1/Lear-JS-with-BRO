@@ -1,0 +1,85 @@
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 0%, 80%);
+}
+h1{
+    color: hsl(39, 100%, 40%);
+    font-size: 3rem;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calc{
+    margin-left: 600px;
+    margin-top: 70px;
+    background-color: hsl(0, 0%, 15%);
+    max-width: 350px;
+    border-radius: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+#text{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding: 40px;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 3rem;
+    background-color: hsl(0, 0%, 25%);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 40%);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 65%)
+}
+
+.add{
+    background-color: orange;
+}
+.sub{
+    background-color: orange;
+}
+.div{
+    background-color: orange;
+}
+.mul{
+    background-color: orange;
+}
+.clr{
+    background-color: orange;
+}
+
+.add:hover{
+    background-color: hsl(39, 100%, 25%);
+}
+.sub:hover{
+    background-color: hsl(39, 100%, 25%);
+}
+.div:hover{
+    background-color: hsl(39, 100%, 25%);
+}
+.mul:hover{
+    background-color: hsl(39, 100%, 25%);
+}
+.clr:hover{
+    background-color: hsl(39, 100%, 25%);
+}
+
