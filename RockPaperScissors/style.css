@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -84,4 +85,23 @@ button:active{
     width: 100px;
     padding: 20px;
     border: none;
+}
+#com , #you{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: hsl(39, 100%, 30%);
+    margin: 10px;
+}
+#com {
+    margin-top: 60px;
+}
+#cvalue , #yvalue{
+    font-size: 1.5rem;
+}
+#cvalue{
+    color: hsl(0, 100%, 70%);
+}
+#yvalue{
+    color: hsl(135, 100%, 70%);
 }
